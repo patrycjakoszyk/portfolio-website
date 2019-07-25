@@ -1,0 +1,15 @@
+.btn {
+    color: $color-dark-grey;
+    transition-duration: .5s; 
+    border: 1px solid grey;
+    border-radius: $grid-base * .5;
+    padding: $grid-base * 1.2;
+    cursor: pointer;
+    
+    &--black:hover {
+        background-color: darken($color-grey, 20%);
+    }
+    @include medium() {
+        display: none;
+    }
+}

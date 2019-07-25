@@ -1,0 +1,13 @@
+.item {
+    font-size: $font-base * 10;
+    padding: $font-base * 5;
+    color: $color-white;
+    opacity: .1;
+    text-align: center;
+    &--link {
+        text-decoration: none;
+        color: $color-white;
+        font-size: $font-base * 2;
+        text-align: center;
+    }
+}

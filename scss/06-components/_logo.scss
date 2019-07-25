@@ -1,0 +1,8 @@
+.logo {
+    text-decoration: none;
+    color: $color-white;
+    font-size: $font-base * 1.2;
+    @include medium() {
+        font-size: $font-base * 1.5;
+    }
+}

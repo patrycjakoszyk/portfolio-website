@@ -1,0 +1,24 @@
+.heading {
+    &--h1 {
+        color: $color-white;
+        opacity: .5;
+        font-size: $font-base * 2;
+        line-height: $font-base * 2;
+        text-align: center;
+    @include medium() {
+        font-size: $font-base * 3;
+        line-height: $font-base * 3;
+    }
+    @include large() {
+        font-size: $font-base * 4;
+        line-height: $font-base * 4;
+        }
+    }
+    &--h2 {
+        font-size: $font-base * 5;
+        width: 100%;
+        text-align: center;
+        padding-top: $grid-base * 2;
+        margin-bottom: $grid-base * 3;
+    }
+}

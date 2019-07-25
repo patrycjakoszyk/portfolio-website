@@ -1,0 +1,13 @@
+.btn-send {
+    color: $color-dark-grey;
+    transition-duration: .5s; 
+    border: 1px solid grey;
+    border-radius: $grid-base * .5;
+    padding: $grid-base * 1.2;
+    cursor: pointer;
+    
+    &--send:hover {
+        background-color: darken($color-grey, 20%);
+        color: $color-white;
+    }
+}

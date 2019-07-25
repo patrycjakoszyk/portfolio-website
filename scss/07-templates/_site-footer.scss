@@ -1,0 +1,21 @@
+.site-footer {
+    background-color: $color-dark-grey;
+    color: $color-white;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    &__item {
+        position: absolute;
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+        top: 15%;
+        &--link {
+            position: absolute;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 35%;
+        }
+    }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Portfolio Patrycja Koszyk</title>
+</head>
+<body>
+    <header class="site-header" id="top">
+        <a href="#" class="logo site-header__logo">PORTFOLIO - PK</a>
+        <nav class="nav site-header__nav dropdown-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Strona główna</a></li>
+                <li class="nav__item"><a href="#o-mnie" class="nav__link">O mnie</a></li>
+                <li class="nav__item"><a href="#projekty" class="nav__link">Projekty</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1 class="heading--h1 site-header__h1">Patrycja Koszyk<br>fronted-developer</h1>
+        <a class="btn site-header__button btn--black">
+            <i class="material-icons">menu</i>
+        </a>
+    </header>
+    <main>
+        <section class="site-section" id="o-mnie">
+            <h2 class="heading--h2">O mnie</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>Witam, nazywam się Patrycja Koszyk. Z wykształcenia jestem absolwentką Politechniki Krakowskiej na kierunku Architektura i Urbanistyka. Posiadam prawie pięcio letnie doświadczenie w projektowaniu, głównie w systemie BIM.</p>
+                        <p>Programowaniem interesuję się od dwóch lat i staram się w kazdej wolnej chwili zwiększać swoją wiedzę kodując, udzielając się na forach, oglądając webinary czy słuchając podcasty.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-section site-section--bg-color" id="projekty">
+            <h2 class="heading--h2">Projekty</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col col--md50">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--one"></div>
+                            <div class="image-box__text">
+                                <a href="#" class="image-box__text--link">blog o podrozach</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col--md50">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--two"></div>
+                            <div class="image-box__text">
+                                <a href="#" class="image-box__text--link">portfolio</a>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col col--md50">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--three"></div>
+                            <div class="image-box__text">
+                                <a href="#" class="image-box__text--link">blog o podrozach</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col--md50">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--four"></div>
+                            <div class="image-box__text">
+                                <a href="#" class="image-box__text--link">blog o podrozach</a>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-contact" id="contact">
+            <div class="blackout site-contact__blackout"></div>
+            <h2 class="heading--h2 site-contact__h2">Kontakt</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form class="form site-contact__form">
+                            <label for="mail" class="form__label">Podaj adres e-mail</label><br>
+                            <input name="mail" id="mail" class="form__input"><br>
+                            <label for="subject" class="form__label">Wpisz temat wiadomości</label><br>
+                            <input name="subject" id="subject" class="form__input"><br>
+                            <label for="message" class="form__label">Wpisz treść wiadomości</label><br>
+                            <textarea name="message" id="message" cols="15" rows="5" class="form__input"></textarea><br>
+                            <input type="submit" value="Wyślij" class="btn-send">
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+                <div class="col">
+                    <p class="item site-footer__item">WORK?</p>
+                    <a class="item--link site-footer__item--link" href="#contact">Napisz do mnie!</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="to-top site-body__to-top">
+        <a href="#top" class="to-top__link">
+            <i class="material-icons">expand_less</i>
+        </a>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

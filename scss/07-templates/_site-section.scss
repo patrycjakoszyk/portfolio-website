@@ -1,0 +1,7 @@
+.site-section {
+    min-height: 100vh;
+
+    &--bg-color {
+        background-color: darken($color-white, 1%);
+    }
+}

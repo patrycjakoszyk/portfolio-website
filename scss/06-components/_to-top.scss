@@ -1,0 +1,14 @@
+.to-top {
+    &__link {
+        padding: $grid-base * 1.2;
+        display: block;
+        color: gray;
+        font-weight: bold;
+        border: 1px solid grey;
+        border-radius: $grid-base * .4;
+        transition-duration: .4s;
+        &:hover {
+            background-color: darken($color-grey, 20%);
+        }
+    }
+}
